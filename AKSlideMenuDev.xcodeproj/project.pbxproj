@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		82779E0A158D8F730002BD2D /* AKSlideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82779E09158D8F730002BD2D /* AKSlideMenuViewController.m */; };
+		D2D9CFEC158DDA3B005D997B /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D9CFEB158DDA3B005D997B /* iPhone.storyboard */; };
 		F94833C9158ADF7400CFE13F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94833C8158ADF7400CFE13F /* UIKit.framework */; };
 		F94833CB158ADF7400CFE13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94833CA158ADF7400CFE13F /* Foundation.framework */; };
 		F94833CD158ADF7400CFE13F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94833CC158ADF7400CFE13F /* CoreGraphics.framework */; };
@@ -15,16 +16,14 @@
 		F94833D5158ADF7400CFE13F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F94833D4158ADF7400CFE13F /* main.m */; };
 		F94833D9158ADF7400CFE13F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F94833D8158ADF7400CFE13F /* AppDelegate.m */; };
 		F94833DC158ADF7400CFE13F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F94833DB158ADF7400CFE13F /* ViewController.m */; };
-		F94833DF158ADF7400CFE13F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94833DD158ADF7400CFE13F /* ViewController.xib */; };
 		F94833FD158B09D400CFE13F /* ContentsTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F94833FB158B09D400CFE13F /* ContentsTwoViewController.m */; };
-		F94833FE158B09D400CFE13F /* ContentsTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94833FC158B09D400CFE13F /* ContentsTwoViewController.xib */; };
 		F9483402158B0AAF00CFE13F /* ContentsOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9483400158B0AAF00CFE13F /* ContentsOneViewController.m */; };
-		F9483403158B0AAF00CFE13F /* ContentsOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9483401158B0AAF00CFE13F /* ContentsOneViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		82779E08158D8F730002BD2D /* AKSlideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKSlideMenuViewController.h; sourceTree = "<group>"; };
 		82779E09158D8F730002BD2D /* AKSlideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKSlideMenuViewController.m; sourceTree = "<group>"; };
+		D2D9CFEB158DDA3B005D997B /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
 		F94833C4158ADF7400CFE13F /* AKSlideMenuDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKSlideMenuDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94833C8158ADF7400CFE13F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F94833CA158ADF7400CFE13F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,13 +36,10 @@
 		F94833D8158ADF7400CFE13F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		F94833DA158ADF7400CFE13F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		F94833DB158ADF7400CFE13F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		F94833DE158ADF7400CFE13F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		F94833FA158B09D400CFE13F /* ContentsTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ContentsTwoViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		F94833FB158B09D400CFE13F /* ContentsTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ContentsTwoViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		F94833FC158B09D400CFE13F /* ContentsTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentsTwoViewController.xib; sourceTree = "<group>"; };
 		F94833FF158B0AAF00CFE13F /* ContentsOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ContentsOneViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		F9483400158B0AAF00CFE13F /* ContentsOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ContentsOneViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		F9483401158B0AAF00CFE13F /* ContentsOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentsOneViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +68,7 @@
 		F94833B9158ADF7400CFE13F = {
 			isa = PBXGroup;
 			children = (
+				D2D9CFEB158DDA3B005D997B /* iPhone.storyboard */,
 				82779E07158D8F730002BD2D /* AKSlideMenu */,
 				F94833CE158ADF7400CFE13F /* AKSlideMenuDev */,
 				F94833C7158ADF7400CFE13F /* Frameworks */,
@@ -104,14 +101,11 @@
 				F94833D8158ADF7400CFE13F /* AppDelegate.m */,
 				F94833DA158ADF7400CFE13F /* ViewController.h */,
 				F94833DB158ADF7400CFE13F /* ViewController.m */,
-				F94833DD158ADF7400CFE13F /* ViewController.xib */,
 				F94833CF158ADF7400CFE13F /* Supporting Files */,
 				F94833FF158B0AAF00CFE13F /* ContentsOneViewController.h */,
 				F9483400158B0AAF00CFE13F /* ContentsOneViewController.m */,
-				F9483401158B0AAF00CFE13F /* ContentsOneViewController.xib */,
 				F94833FA158B09D400CFE13F /* ContentsTwoViewController.h */,
 				F94833FB158B09D400CFE13F /* ContentsTwoViewController.m */,
-				F94833FC158B09D400CFE13F /* ContentsTwoViewController.xib */,
 			);
 			path = AKSlideMenuDev;
 			sourceTree = "<group>";
@@ -178,9 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F94833D3158ADF7400CFE13F /* InfoPlist.strings in Resources */,
-				F94833DF158ADF7400CFE13F /* ViewController.xib in Resources */,
-				F94833FE158B09D400CFE13F /* ContentsTwoViewController.xib in Resources */,
-				F9483403158B0AAF00CFE13F /* ContentsOneViewController.xib in Resources */,
+				D2D9CFEC158DDA3B005D997B /* iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,14 +201,6 @@
 				F94833D2158ADF7400CFE13F /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F94833DD158ADF7400CFE13F /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F94833DE158ADF7400CFE13F /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -270,9 +254,11 @@
 		F94833E6158ADF7400CFE13F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AKSlideMenuDev/AKSlideMenuDev-Prefix.pch";
 				INFOPLIST_FILE = "AKSlideMenuDev/AKSlideMenuDev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -282,9 +268,11 @@
 		F94833E7158ADF7400CFE13F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AKSlideMenuDev/AKSlideMenuDev-Prefix.pch";
 				INFOPLIST_FILE = "AKSlideMenuDev/AKSlideMenuDev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

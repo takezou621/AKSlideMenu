@@ -36,6 +36,9 @@
 
 - (void)viewDidLoad
 {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"iPhone" bundle:nil];
+
+  
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
@@ -45,15 +48,14 @@
     [self.view addSubview:_aKSlideMenuViewController.view];
     
     // First Contents View Create!
-    ContentsOneViewController* contentsOneViewController = [[ContentsOneViewController alloc] initWithNibName:@"ContentsOneViewController"
-                                                                                                       bundle:[NSBundle mainBundle]];
+    ContentsOneViewController* contentsOneViewController = [storyboard instantiateViewControllerWithIdentifier:@"ContentsOneViewController"];
+  
     [_aKSlideMenuViewController addContentsViewController:contentsOneViewController
                                                    forKey:@"contentsOne"];
     contentsOneViewController.aKSlideMenuViewController = _aKSlideMenuViewController;
     
     // Second Contents View Create!
-    ContentsTwoViewController* contentsTwoViewController = [[ContentsTwoViewController alloc] initWithNibName:@"ContentsTwoViewController"
-                                                                                                       bundle:[NSBundle mainBundle]];
+    ContentsTwoViewController* contentsTwoViewController = [storyboard instantiateViewControllerWithIdentifier:@"ContentsTwoViewController"];
     [_aKSlideMenuViewController addContentsViewController:contentsTwoViewController
                                                    forKey:@"contentsTwo"];
     contentsTwoViewController.aKSlideMenuViewController = _aKSlideMenuViewController;
